@@ -2,17 +2,17 @@ export const TEXTS = [
   {
     title: "Body Mass Index Calculator",
     content:
-      "Better understand your weight in relation to your height using our body mass index (BMI) calculator. While BMI is not the sole determinant of a healty weight, it offers a valuable starting point to evaluate your overall health and well-being.",
+      "Better understand your weight in relation to your height using our body mass index (BMI) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.",
   },
   {
     title: "What your BMI result means",
     content:
-      "A BMI range of 18.5 to 24.9 is considered a 'healty weight'. Mainteining a healty weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a notritious diet with rediced fat and sugar content, incorporating ample friuit and vegetables. Aditionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.",
+      "A BMI range of 18.5 to 24.9 is considered a 'healthy weight'. Maintaining a healthy weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced fat and sugar content, incorporating ample fruit and vegetables. Additionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.",
   },
   {
-    title: "Healty eating",
+    title: "Healthy eating",
     content:
-      "Healty eating promotes weight control, disease prevention, better digestion, immunity, mental clarity and mood.",
+      "Healthy eating promotes weight control, disease prevention, better digestion, immunity, mental clarity and mood.",
   },
   {
     title: "Regular exercise",
@@ -27,7 +27,7 @@ export const TEXTS = [
   {
     title: "Limitations of BMI",
     content:
-      "Although BMI is ofen a practical indicator of health weight, it is not suited for every person. Specifica groups should carefully consider their BMI outcomes and in certain cases the measurement may not be beneficial to use.",
+      "Although BMI is often a practical indicator of health weight, it is not suited for every person. Specific groups should carefully consider their BMI outcomes and in certain cases the measurement may not be beneficial to use.",
   },
   {
     title: "Gender",
@@ -47,7 +47,7 @@ export const TEXTS = [
   {
     title: "Pregnancy",
     content:
-      "Expectant mother experience weight gain due to their growing baby. Maintaining a healty pre-pregnancy BMI is advisable to minimize health risks fro both mother and child.",
+      "Expectant mother experience weight gain due to their growing baby. Maintaining a healthy pre-pregnancy BMI is advisable to minimize health risks fro both mother and child.",
   },
   {
     title: "Race",
