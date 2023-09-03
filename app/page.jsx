@@ -150,11 +150,11 @@ export default function Home() {
     <main className="flex min-h-screen w-screen flex-col justify-center items-center lg:px-9">
       <div className="z-10 flex flex-col items-center md:justify-center lg:flex-row w-full">
         <div className="flex flex-col items-center mb-28 md:mb-0 h-[300px] md:w-full md:items-center lg:items-start w-full lg:w-1/2 lg:h-[640px]">
-          <div className="h-12 w-12 mt-10 mb-6  md:h-14 md:w-14 md:mb-10 lg:h-16 lg:w-16 lg:ml-[105px] lg:mt-14">
+          <div className="h-12 w-12 mt-10 mb-6  md:h-14 md:w-14 md:mb-10 lg:h-16 lg:w-16 lg:ml-[105px] lg:mt-14 lg:pt-4">
             <Image src="/logo.svg" alt="logo" width={70} height={70} />
           </div>
           <div className="lg:mt-24  md:flex md:flex-col md:justify-center items-center">
-            <h1 className="text-5xl font-bold lg:text-[4rem]/[1] lg:ml-14 lg:mb-4 text-center lg:text-start lg:-mt-3 lg:w-[78%]">
+            <h1 className="text-5xl font-bold lg:text-[4rem]/[1] lg:ml-14 lg:mb-4 text-center lg:text-start lg:mt-2 lg:w-[78%]">
               {TEXTS[0].title}
             </h1>
             <p className="w-full p-6 text-center md:p-0 md:w-3/4 md:mt-8 lg:text-start lg:w-3/4 lg:pl-8 lg:mt-0">
@@ -165,13 +165,13 @@ export default function Home() {
 
         <div className="w-[90%] flex items-center md:justify-start lg:w-[50%] mt-8 lg:mt-9 md:ml-8 ">
           <div className="w-full md:w-[95%] lg:w-[85%] lg:mt-[128px] min-h-fit rounded-xl bg-white p-6 shadow-xl">
-            <h2 className="text-[1.45rem]/[1] font-bold mb-7 ml-3 mt-2">
+            <h2 className="text-[1.45rem]/[1] font-bold mb-7 ml-3 mt-4">
               Enter your details bellow
             </h2>
             <form>
               <div className="flex w-full justify-between">
                 <div className="mb-5 flex w-full justify-center">
-                  <div className="flex items-center w-2/3 ml-6 md:ml-0 lg:ml-3 mt-3">
+                  <div className="flex items-center w-2/3 ml-6 md:ml-0 lg:ml-3 mt-1">
                     <input
                       type="radio"
                       defaultChecked={true}
@@ -192,7 +192,7 @@ export default function Home() {
                     </label>
                   </div>
 
-                  <div className="flex items-center w-2/3 mt-3">
+                  <div className="flex items-center w-2/3 mt-1">
                     <input
                       type="radio"
                       name="measures"
@@ -418,9 +418,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col relative justify-center items-center md:flex-row w-full lg:w-[90%] lg:justify-between lg:mt-10">
+      <div className="flex flex-col relative justify-center items-center md:flex-row w-full lg:w-[90%] lg:justify-between lg:mt-[72px]">
         <div className="w-full mx-auto md:mx-0 flex flex-col md:flex-row justify-center items-end lg:w-auto lg:mt-[91px]">
-          <div className="md:w-[45%] md:pt-24 lg:pt-0 lg:w-1/2">
+          <div className="md:w-[45%] md:pt-24 lg:pt-0 lg:w-[78%]">
             <Image
               src="/image-man-eating.webp"
               width={890}
@@ -430,21 +430,21 @@ export default function Home() {
             />
           </div>
           {/* What your BMI result means */}
-          <div className="p-8 md:p-0 md:w-1/2 md:mb-10 lg:mb-12 lg:w-[70%] lg:ml-[170px] ">
-            <h1 className="mb-7 md:mb-8 md:pr-20 lg:pr-0 text-2xl md:text-3xl font-bold lg:mb-8">
+          <div className="p-8 md:p-0 md:w-1/2 md:mb-10 lg:mt-44 lg:mb-12 lg:w-[70%] lg:ml-[170px] ">
+            <h1 className="mb-7 md:mb-8 md:pr-20 lg:pr-0 text-2xl md:text-5xl font-bold lg:mb-8">
               {TEXTS[1].title}
             </h1>
             <p className="md:w-[70%] lg:w-full lg:pr-9">{TEXTS[1].content}</p>
           </div>
         </div>
 
-        <div className="hidden absolute top-0 -right-20 lg:block w-1/2">
+        <div className="hidden absolute top-0 right-0 lg:block w-1/2">
           <Image
             src="/pattern-curved-line-left.svg"
             alt="decoration"
-            width={100}
-            height={10}
-            className=" ml-96"
+            width={80}
+            height={80}
+            className=" mt-14 ml-[460px]"
           />
         </div>
       </div>

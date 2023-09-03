@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} w-screen h-screen relative`}>
-        <div className="absolute top-0 left-0 w-full lg:w-[70%] h-[740px] rounded-br-[40px] bg-gradient-to-r from-[#d8e2e7] to-[#b3d3f1]"></div>
+        <div className="absolute top-0 left-0 w-full lg:w-[70%] h-[735px] rounded-br-[40px] bg-gradient-to-r from-[#D6E6FE] to-[#D6FCFE]"></div>
         {children}
       </body>
     </html>
