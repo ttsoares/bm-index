@@ -53,7 +53,7 @@ Users should be able to:
 ### Continued development
 
 - Build for three resolutions poses new difficulties in the Tailwind infrastructure of CSS.
-- Next challenge could be the 'fluid design'that works in all resolutions...
+- Next challenge could be a 'fluid design' that works in all resolutions...
 
 ### Useful resources
 
